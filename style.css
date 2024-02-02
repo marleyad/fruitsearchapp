@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Gradiant applied */
+body {
+  background: linear-gradient(to right, #ed3d11, #c49c18);
+}
+
+/* Simple Heading */
+body h1 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+/* Main Search box area */
+.search-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ height: 400px;
+ margin: 35px;
+ border: 5px solid black;
+ position: relative;
+}
+
+/* Input box area */
+.search-container input {
+ border-radius: 5px;
+ background: linear-gradient(to right, #ed3d11, #c49c18);
+}
+
+.search-container .suggestions {
+   position: absolute;
+   width: 200px;
+   border-radius: 4px;
+   top: 54%;
+   max-width: 300px;
+   background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  text-align:left;
+  margin: 0;
+  padding-left: 3px;
+}
+
+/* Better user experience with black font */
+.search-container input::placeholder {
+  color: black;
+}
+
+/* I think CSS is simpler to implement than having JS */
+ul li:hover {
+  background-color: #ddd;
+}
