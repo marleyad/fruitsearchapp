@@ -2,6 +2,7 @@ const input = document.querySelector('#fruit');
 const suggestions = document.querySelector('.suggestions ul');
 
 // Complete list of fruits to use for this project. Added emojis if found
+
 const fruit = [
 	'Apple 🍎', 
 	'Apricot',
